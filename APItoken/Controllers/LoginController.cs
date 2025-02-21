@@ -37,11 +37,11 @@ namespace APItoken.Controllers
         {
             UserModel user = null;
 
-            if (login.Username?.ToLower() == "malmer")
+            if (login.Username?.ToLower() == "malmer20")
             {
                 user = new UserModel { Username = login.Username, Password = login.Password };
             }
-            return user;
+            return user; //ivhghhg
         }
 
 
